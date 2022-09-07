@@ -3,8 +3,7 @@
   flex-direction: column;
   justify-content: flex-start;
   min-height: 100vh;
-  padding-left: 12px;
-  padding-right: 8px;
+  padding: 20px;
   background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
   background-size: cover;
 }
@@ -16,6 +15,7 @@
     background-size: cover;
     background-position: center;
     flex-shrink: 1;
+    padding: 0;
   }
 }
 

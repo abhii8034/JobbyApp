@@ -28,6 +28,7 @@
 
 .nav-bar-mobile-logo-container {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   width: 100%;
 }
@@ -43,6 +44,8 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  max-width: 1110px;
+  padding-top: 10px;
 }
 
 @media screen and (max-width: 767px) {

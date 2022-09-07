@@ -27,12 +27,17 @@ const Header = props => {
             />
           </Link>
           <div className="nav-mobile-btn-container">
-            <button type="button" className="nav-mobile-btn">
-              <HiHome size="24" />
-            </button>
-            <button type="button" className="nav-mobile-btn">
-              <BsBriefcaseFill size="24" />
-            </button>
+            <Link to="/">
+              <button type="button" className="nav-mobile-btn">
+                <HiHome size="24" />
+              </button>
+            </Link>
+            <Link to="/jobs">
+              <button type="button" className="nav-mobile-btn">
+                <BsBriefcaseFill size="24" />
+              </button>
+            </Link>
+
             <button
               type="button"
               className="nav-mobile-btn"

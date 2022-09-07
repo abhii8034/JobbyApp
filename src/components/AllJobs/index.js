@@ -195,7 +195,7 @@ class AllJobs extends Component {
         type="button"
         onClick={this.onRetryProfile}
       >
-        retry
+        Retry
       </button>
     </div>
   )
