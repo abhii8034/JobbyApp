@@ -1,0 +1,256 @@
+.all-jobs-container {
+  background-color: #000000;
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.jobs-heading {
+  color: #ffffff;
+}
+
+.side-bar-container {
+  width: 25%;
+}
+
+.profile-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  padding: 20px;
+  width: 100%;
+  border-radius: 25px;
+}
+
+.profile-icon {
+  color: blue;
+  font-size: 10px;
+}
+
+.profile-name {
+  margin: 0;
+  padding-top: 10px;
+  color: #6366f1;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+.profile-description {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #64748b;
+  font-weight: bold;
+  font-size: 15px;
+  padding-top: 10px;
+  margin: 0;
+}
+
+.hr-line {
+  border: 1px solid grey;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.text {
+  color: #ffffff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.check-boxes-container {
+  list-style: none;
+  padding: 0;
+}
+
+.li-container {
+  margin-bottom: 10px;
+}
+
+.input {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.label {
+  color: #ffffff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.radio-button-container {
+  padding: 0;
+}
+
+.radio {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.loader-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.failure-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 35vh;
+}
+
+.failure-img {
+  width: 90%;
+  height: 350px;
+}
+
+.failure-button {
+  color: #ffffff;
+  background-color: #6366f1;
+  border: 0;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.jobs-container {
+  width: 72%;
+  height: 100%;
+}
+
+.jobs-failure-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.failure-heading {
+  color: #ffffff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.failure-paragraph {
+  color: #ffffff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.mobile-search-input-container {
+  display: flex;
+  margin-bottom: 20px;
+  border: 1px solid #b6c5ff;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile-search-input-container {
+    display: none;
+  }
+}
+
+.desktop-search-input-container {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border-radius: 4px;
+  padding-left: 15px;
+  border: 1px solid #b6c5ff;
+  width: 48%;
+  margin-left: 44px;
+}
+
+@media screen and (max-width: 767px) {
+  .desktop-search-input-container {
+    display: none;
+  }
+}
+
+.search-input {
+  background-color: transparent;
+  color: #fff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  outline: none;
+  border: none;
+  flex-grow: 1;
+}
+
+.search-button {
+  height: 35px;
+  width: 60px;
+  cursor: pointer;
+  border: 0;
+  background-color: #272727;
+}
+
+.search-icon {
+  color: #fff;
+  font-size: 25px;
+}
+
+.no-jobs-container {
+  color: #ffffff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.no-jobs-img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .all-jobs-container {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .side-bar-container {
+    width: 100%;
+  }
+
+  .search-input {
+    width: 80%;
+  }
+
+  .jobs-container {
+    width: 100%;
+  }
+
+  .ul-job-items-container {
+    width: 100%;
+    padding: 0;
+  }
+
+  .failure-img {
+    width: 90%;
+    height: 90%;
+  }
+}
